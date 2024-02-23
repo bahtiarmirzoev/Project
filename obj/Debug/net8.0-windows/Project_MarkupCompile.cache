@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\bakhaalle\Desktop\Project\App.xaml
-11407045341
+51924431334
 
-101053937222
-239522593770
-MainWindow.xaml;
+151602141186
+2431571617589
+MainWindow.xaml;View\AdminPage.xaml;View\LoginPage.xaml;View\RegistrationPage.xaml;View\SuperAdminPage.xaml;
 
-False
+True
 

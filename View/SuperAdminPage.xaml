@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="Project.View.SuperAdminPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Project.View"
+             xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Image Source="/image/warehouseproject.jfif">
+            <Image.Effect>
+                <BlurEffect Radius="10"/>
+            </Image.Effect>
+        </Image>
+        <Button Content="Add Admin" Name="AddAdminBtn"  Width="200"  Style="{StaticResource MaterialDesignPaperSecondaryDarkButton}" Background="Orange" Margin="300,148,300,270"/>
+        
+        
+        <Button Content="Delete Admin" Name="DeleteAdminBtn" Width="200" Style="{StaticResource MaterialDesignPaperSecondaryDarkButton}" Background="Orange" Margin="300,249,300,169"/>
+    </Grid>
+</UserControl>

@@ -4,9 +4,55 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Project.View"
+             xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-            
+        <Image Source="/image/registrationpagetrendyol.jpg">
+            <Image.Effect>
+                <BlurEffect Radius="10"/>
+            </Image.Effect>
+        </Image>
+
+        <StackPanel Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <Border BorderBrush="Orange" BorderThickness="0,0,0,2">
+                    <TextBox Name="UsernameTextBox" Width="200" BorderThickness="0" Style="{StaticResource MaterialDesignFloatingHintTextBox}" md:HintAssist.Hint="Username" />
+                </Border>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <Border BorderBrush="Orange" BorderThickness="0,0,0,2">
+                    <TextBox Name="NameTextBox" Width="200" BorderThickness="0" Style="{StaticResource MaterialDesignFloatingHintTextBox}" md:HintAssist.Hint="Firstname"/>
+                </Border>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <Border BorderBrush="Orange" BorderThickness="0,0,0,2">
+                    <TextBox Name="SurnameTextBox" Width="200" BorderThickness="0" Style="{StaticResource MaterialDesignFloatingHintTextBox}" md:HintAssist.Hint="Surname" />
+                </Border>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <Border BorderBrush="Orange" BorderThickness="0,0,0,2">
+                    <TextBox Name="FinTextBox" Width="200" BorderThickness="0" Style="{StaticResource MaterialDesignFloatingHintTextBox}" md:HintAssist.Hint="FIN"/>
+                </Border>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <Border BorderBrush="Orange" BorderThickness="0,0,0,2">
+                    <TextBox Name="PhoneTextBox" Width="200" BorderThickness="0" Style="{StaticResource MaterialDesignFloatingHintTextBox}"  md:HintAssist.Hint="Phone" />
+                </Border>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <Border BorderBrush="Orange" BorderThickness="0,0,0,2">
+                    <PasswordBox Name="PasswordBox" Width="200" BorderThickness="0" md:HintAssist.Hint="Password"  />
+                </Border>
+            </StackPanel>
+
+            <Button Content="Register" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0" Width="200" Click="RegisterButton_Click" Style="{StaticResource MaterialDesignFlatMidBgButton}" Background="Orange"  />
+        </StackPanel>
     </Grid>
 </UserControl>
