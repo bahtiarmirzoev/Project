@@ -14,8 +14,8 @@
             </Image.Effect>
         </Image>
         <Button Content="Add Admin" Name="AddAdminBtn"  Width="200"  Style="{StaticResource MaterialDesignPaperSecondaryDarkButton}" Background="Orange" Margin="300,148,300,270"/>
-        
-        
+
+
         <Button Content="Delete Admin" Name="DeleteAdminBtn" Width="200" Style="{StaticResource MaterialDesignPaperSecondaryDarkButton}" Background="Orange" Margin="300,249,300,169"/>
     </Grid>
 </UserControl>

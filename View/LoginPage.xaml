@@ -16,8 +16,6 @@
 
         <StackPanel Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center">
             <StackPanel>
-              
-
                 <StackPanel Margin="0,0,0,20">
                     <Border BorderBrush="Orange" BorderThickness="0,0,0,1">
                         <TextBox Name="UsernameTextBox" Width="200" BorderThickness="0" Style="{StaticResource MaterialDesignFloatingHintTextBox}" md:HintAssist.Hint="Username" />
@@ -33,6 +31,8 @@
 
             <Button Content="Sign In" Width="150" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Orange" Foreground="White" BorderBrush="Orange" />
 
+            <!-- Adjusted Margin to move the second button down -->
+            <Button Content="You don't have an account?" Width="150" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,30,0,0" Background="Orange" Foreground="White" BorderBrush="Orange"/>
         </StackPanel>
     </Grid>
 </UserControl>

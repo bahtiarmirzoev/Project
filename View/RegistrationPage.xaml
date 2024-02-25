@@ -52,7 +52,9 @@
                 </Border>
             </StackPanel>
 
-            <Button Content="Register" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0" Width="200" Click="RegisterButton_Click" Style="{StaticResource MaterialDesignFlatMidBgButton}" Background="Orange"  />
+            <Button Content="Register" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,20,0,0" Width="200"  Style="{StaticResource MaterialDesignPaperButton}" Background="Orange"  />
+
+            <Button Content="Already have an account ?" HorizontalAlignment="Center" VerticalAlignment='Center' Margin ="0,20,0,0" Width="200" Style="{StaticResource MaterialDesignPaperButton}" Background="Orange" Foreground="Black"/>
         </StackPanel>
     </Grid>
 </UserControl>

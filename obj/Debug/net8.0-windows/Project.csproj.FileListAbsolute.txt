@@ -143,3 +143,13 @@ C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\View\LoginPage.g.cs
 C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\View\LoginPage.baml
 C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\View\AdminPage.g.cs
 C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\View\SuperAdminPage.g.cs
+C:\Users\bakhaalle\Desktop\Project\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\bakhaalle\Desktop\Project\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\bakhaalle\Desktop\Project\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\bakhaalle\Desktop\Project\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\bakhaalle\Desktop\Project\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\bakhaalle\Desktop\Project\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\App.baml
+C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\View\AdminPage.baml
+C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\View\SuperAdminPage.baml
+C:\Users\bakhaalle\Desktop\Project\bin\Debug\net8.0-windows\appsettings.json
