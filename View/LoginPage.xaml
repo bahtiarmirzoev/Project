@@ -31,7 +31,6 @@
 
             <Button Content="Sign In" Width="150" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Orange" Foreground="White" BorderBrush="Orange" />
 
-            <!-- Adjusted Margin to move the second button down -->
             <Button Content="You don't have an account?" Width="150" Height="40" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,30,0,0" Background="Orange" Foreground="White" BorderBrush="Orange"/>
         </StackPanel>
     </Grid>

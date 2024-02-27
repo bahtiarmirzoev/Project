@@ -7,10 +7,19 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="View\AddAdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\AdminPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\DeleteAdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\LoginPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\MainView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\RegistrationPage.xaml.cs">
@@ -21,13 +30,19 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="MainWindow.xaml">
+    <Page Update="View\AddAdminPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\AdminPage.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="View\DeleteAdminPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\LoginPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\MainView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\RegistrationPage.xaml">

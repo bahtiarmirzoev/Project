@@ -8,7 +8,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <Image Source="/image/registrationpagetrendyol.jpg">
+        <Image Source="https://i.imgur.com/wEDWchd.jpeg">
             <Image.Effect>
                 <BlurEffect Radius="10"/>
             </Image.Effect>
