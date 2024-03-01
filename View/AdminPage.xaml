@@ -18,15 +18,6 @@
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="20">
             <TextBlock Text="Orders:" Margin="0,0,0,20" FontSize="32" FontWeight="Bold"/>
 
-            <ListView Name="OrdersListView" Width="400" Height="200" BorderBrush="Black" BorderThickness="1">
-                <ListView.View>
-                    <GridView>
-                        <GridViewColumn Header="Order ID" Width="200" DisplayMemberBinding="{Binding OrderID}" />
-                        <GridViewColumn Header="Customer" Width="200" DisplayMemberBinding="{Binding CustomerName}" />
-                    </GridView>
-                </ListView.View>
-            </ListView>
-
             <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
                 <TextBlock Text="Order State:" Margin="0,0,10,0" VerticalAlignment="Center" />
                 <RadioButton Content="Order Made" Name="OrderMadeRadioButton" Style="{StaticResource MaterialDesignFlatAccentBgButton}" Background="Orange" Margin="0,0,10,0"/>
