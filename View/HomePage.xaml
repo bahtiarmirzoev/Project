@@ -20,7 +20,7 @@
 
 
 
-        <Button Width="300" Background="Orange" Margin="250,163,250,255" HorizontalAlignment="Center" VerticalAlignment="Center">Order tracking</Button>
+        <Button Width="300" Background="Orange" Margin="250,163,250,255" HorizontalAlignment="Center" VerticalAlignment="Center">Order history</Button>
 
 
         <Button Width="300" Background="Orange" RenderTransformOrigin="0.493,-0.507" HorizontalAlignment="Center" VerticalAlignment="Center">Cancel order</Button>

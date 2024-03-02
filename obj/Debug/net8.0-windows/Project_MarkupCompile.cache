@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\bakhaalle\Desktop\Project\App.xaml
-7523786516
+111945786478
 
-28-276905992
+33-1525522820
 254512912628
-View\AddAdminPage.xaml;View\AdminPage.xaml;View\DeleteAdminPage.xaml;View\LoginPage.xaml;View\MainView.xaml;View\RegistrationPage.xaml;View\SuperAdminPage.xaml;
+View\AccountInfoPage.xaml;View\AddAdminPage.xaml;View\AdminPage.xaml;View\CancelOrderPage.xaml;View\DeleteAdminPage.xaml;View\HomePage.xaml;View\LoginPage.xaml;View\MainView.xaml;View\PreviewPage.xaml;View\RegistrationPage.xaml;View\SuperAdminPage.xaml;
 
 False
 

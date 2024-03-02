@@ -27,7 +27,7 @@
     FontSize="17"
     FontWeight="Bold"
                   Margin="0,0,0,0"
-    Height="288" Width="798">
+    Height="300" Width="700">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <DockPanel>

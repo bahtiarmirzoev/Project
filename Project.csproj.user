@@ -34,6 +34,9 @@
     <Compile Update="View\PreviewPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\ProductCountPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\RegistrationPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -67,6 +70,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\PreviewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ProductCountPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\RegistrationPage.xaml">

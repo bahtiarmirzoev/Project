@@ -12,7 +12,7 @@
                 <BlurEffect Radius="10"/>
             </Image.Effect>
         </Image>
-        <TextBlock Text="User Informatiom" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0" Foreground="Black"/>
+        <TextBlock Text="User Info" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0" Foreground="Black"/>
 
         <StackPanel Margin="50">
             <TextBlock Text="Firstname:" Foreground="Black"  FontWeight="Bold" FontSize="15" Margin="0,20,0,0"/>

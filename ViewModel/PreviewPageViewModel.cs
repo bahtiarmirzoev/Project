@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project.ViewModel
 {
-    public class PreviewPageViewModel:ViewModelBase
-    {
-    }
+    //public class PreviewPageViewModel:ViewModelBase
+    //{
+    //}
 }

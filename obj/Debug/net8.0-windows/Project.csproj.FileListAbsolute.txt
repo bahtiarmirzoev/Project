@@ -173,3 +173,11 @@ C:\Users\bakhaalle\Desktop\Project\bin\Debug\net8.0-windows\runtimes\win7-x64\na
 C:\Users\bakhaalle\Desktop\Project\bin\Debug\net8.0-windows\runtimes\win7-x86\native\libuv.dll
 C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\View\MainView.baml
 C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\View\AccountInfoPage.g.cs
+C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\View\CancelOrderPage.g.cs
+C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\View\HomePage.g.cs
+C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\View\PreviewPage.g.cs
+C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\View\AccountInfoPage.baml
+C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\View\CancelOrderPage.baml
+C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\View\HomePage.baml
+C:\Users\bakhaalle\Desktop\Project\obj\Debug\net8.0-windows\View\PreviewPage.baml
