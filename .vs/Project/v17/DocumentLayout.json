@@ -1,0 +1,837 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\Project-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\viewmodel\\adminpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:viewmodel\\adminpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\viewmodel\\addorderuserpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:viewmodel\\addorderuserpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\viewmodel\\addadminpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:viewmodel\\addadminpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\cancelorderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\cancelorderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\viewmodel\\gancelorderpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:viewmodel\\gancelorderpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\myorderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\myorderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\viewmodel\\myordersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:viewmodel\\myordersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\viewmodel\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:viewmodel\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\productcountpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\productcountpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\viewmodel\\productcountpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:viewmodel\\productcountpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\services\\classes\\addorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:services\\classes\\addorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\addorderuserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\addorderuserpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\viewmodel\\addorderpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:viewmodel\\addorderpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\data\\trendyoldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:data\\trendyoldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\addorderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\addorderpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\addadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\addadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\accountinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\accountinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\viewmodel\\accountinfopageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:viewmodel\\accountinfopageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\superadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\superadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\services\\classes\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:services\\classes\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\viewmodel\\loginpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:viewmodel\\loginpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\viewmodel\\registrationpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:viewmodel\\registrationpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\services\\classes\\superadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:services\\classes\\superadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\services\\classes\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:services\\classes\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\migrations\\trendyoldbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:migrations\\trendyoldbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\migrations\\20240302085628_trendyol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:migrations\\20240302085628_trendyol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\migrations\\20240302085628_trendyol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:migrations\\20240302085628_trendyol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\viewmodel\\deleteadminpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:viewmodel\\deleteadminpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\viewmodel\\superadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:viewmodel\\superadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\deleteadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\deleteadminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\previewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\previewpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\viewmodel\\previewpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:viewmodel\\previewpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\services\\classes\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:services\\classes\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\services\\interfaces\\inavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:services\\interfaces\\inavigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\deleteadminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\deleteadminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|c:\\users\\admin\\desktop\\project-main\\view\\addadminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4919417-BF3D-4D30-B2E4-172D06AFF96C}|Project.csproj|solutionrelative:view\\addadminpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 383,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T12:13:25.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyOrdersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\MyOrdersPage.xaml",
+              "RelativeDocumentMoniker": "View\\MyOrdersPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\MyOrdersPage.xaml",
+              "RelativeToolTip": "View\\MyOrdersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-02T09:08:03.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CancelOrderPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\CancelOrderPage.xaml",
+              "RelativeDocumentMoniker": "View\\CancelOrderPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\CancelOrderPage.xaml",
+              "RelativeToolTip": "View\\CancelOrderPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-02T08:34:15.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GancelOrderPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\GancelOrderPageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\GancelOrderPageViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\GancelOrderPageViewModel.cs",
+              "RelativeToolTip": "ViewModel\\GancelOrderPageViewModel.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwCkAAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:37:15.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\AdminPage.xaml",
+              "RelativeDocumentMoniker": "View\\AdminPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\AdminPage.xaml",
+              "RelativeToolTip": "View\\AdminPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-01T17:08:09.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\AdminPageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AdminPageViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\AdminPageViewModel.cs",
+              "RelativeToolTip": "ViewModel\\AdminPageViewModel.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAYwDYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:37:00.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainView.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\MainView.xaml",
+              "RelativeDocumentMoniker": "View\\MainView.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\MainView.xaml",
+              "RelativeToolTip": "View\\MainView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-01T17:07:24.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddAdminPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\AddAdminPageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AddAdminPageViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\AddAdminPageViewModel.cs",
+              "RelativeToolTip": "ViewModel\\AddAdminPageViewModel.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAUwFQAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:36:44.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddOrderUserPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\AddOrderUserPageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AddOrderUserPageViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\AddOrderUserPageViewModel.cs",
+              "RelativeToolTip": "ViewModel\\AddOrderUserPageViewModel.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAswDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T09:21:04.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyOrdersViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\MyOrdersViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MyOrdersViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\MyOrdersViewModel.cs",
+              "RelativeToolTip": "ViewModel\\MyOrdersViewModel.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAqwCkAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T09:21:48.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomePageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\HomePageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\HomePageViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\HomePageViewModel.cs",
+              "RelativeToolTip": "ViewModel\\HomePageViewModel.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAkwCwAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:37:57.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwBoAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T17:07:24.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\HomePage.xaml",
+              "RelativeDocumentMoniker": "View\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\HomePage.xaml",
+              "RelativeToolTip": "View\\HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-02T08:43:35.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductCountPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\ProductCountPage.xaml",
+              "RelativeDocumentMoniker": "View\\ProductCountPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\ProductCountPage.xaml",
+              "RelativeToolTip": "View\\ProductCountPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-02T08:29:33.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductCountPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\ProductCountPageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ProductCountPageViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\ProductCountPageViewModel.cs",
+              "RelativeToolTip": "ViewModel\\ProductCountPageViewModel.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAgwH4AAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:39:18.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\Services\\Classes\\AddOrderService.cs",
+              "RelativeDocumentMoniker": "Services\\Classes\\AddOrderService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\Services\\Classes\\AddOrderService.cs",
+              "RelativeToolTip": "Services\\Classes\\AddOrderService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAwwBIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T09:42:27.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddOrderUserPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\AddOrderUserPage.xaml",
+              "RelativeDocumentMoniker": "View\\AddOrderUserPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\AddOrderUserPage.xaml",
+              "RelativeToolTip": "View\\AddOrderUserPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-02T09:10:00.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddOrderPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\AddOrderPageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AddOrderPageViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\AddOrderPageViewModel.cs",
+              "RelativeToolTip": "ViewModel\\AddOrderPageViewModel.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAUwFkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T09:20:34.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA0wB8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:59:17.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "Models\\Products.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\Models\\Products.cs",
+              "RelativeToolTip": "Models\\Products.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T11:31:18.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TrendyolDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\Data\\TrendyolDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\TrendyolDbContext.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\Data\\TrendyolDbContext.cs",
+              "RelativeToolTip": "Data\\TrendyolDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T10:33:29.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddOrderPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\AddOrderPage.xaml",
+              "RelativeDocumentMoniker": "View\\AddOrderPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\AddOrderPage.xaml",
+              "RelativeToolTip": "View\\AddOrderPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-02T09:02:07.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AddAdminPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\AddAdminPage.xaml",
+              "RelativeDocumentMoniker": "View\\AddAdminPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\AddAdminPage.xaml",
+              "RelativeToolTip": "View\\AddAdminPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-01T17:08:05.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AccountInfoPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\AccountInfoPage.xaml",
+              "RelativeDocumentMoniker": "View\\AccountInfoPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\AccountInfoPage.xaml",
+              "RelativeToolTip": "View\\AccountInfoPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-02T08:40:14.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AccountInfoPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\AccountInfoPageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\AccountInfoPageViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\AccountInfoPageViewModel.cs",
+              "RelativeToolTip": "ViewModel\\AccountInfoPageViewModel.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAA7wEwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:36:30.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SuperAdminPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\SuperAdminPage.xaml",
+              "RelativeDocumentMoniker": "View\\SuperAdminPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\SuperAdminPage.xaml",
+              "RelativeToolTip": "View\\SuperAdminPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-01T17:08:00.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\Services\\Classes\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Classes\\UserService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\Services\\Classes\\UserService.cs",
+              "RelativeToolTip": "Services\\Classes\\UserService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAIwBwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T09:55:57.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoginPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\LoginPageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\LoginPageViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\LoginPageViewModel.cs",
+              "RelativeToolTip": "ViewModel\\LoginPageViewModel.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAzwFcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:38:25.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RegistrationPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\RegistrationPageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\RegistrationPageViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\RegistrationPageViewModel.cs",
+              "RelativeToolTip": "ViewModel\\RegistrationPageViewModel.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAcwJMAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:39:42.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SuperAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\Services\\Classes\\SuperAdminService.cs",
+              "RelativeDocumentMoniker": "Services\\Classes\\SuperAdminService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\Services\\Classes\\SuperAdminService.cs",
+              "RelativeToolTip": "Services\\Classes\\SuperAdminService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T10:35:50.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\Services\\Classes\\AdminService.cs",
+              "RelativeDocumentMoniker": "Services\\Classes\\AdminService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\Services\\Classes\\AdminService.cs",
+              "RelativeToolTip": "Services\\Classes\\AdminService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T10:35:45.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TrendyolDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\Migrations\\TrendyolDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\TrendyolDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\Migrations\\TrendyolDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\TrendyolDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T10:35:23.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20240302085628_Trendyol.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\Migrations\\20240302085628_Trendyol.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240302085628_Trendyol.Designer.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\Migrations\\20240302085628_Trendyol.Designer.cs",
+              "RelativeToolTip": "Migrations\\20240302085628_Trendyol.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T10:33:45.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20240302085628_Trendyol.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\Migrations\\20240302085628_Trendyol.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240302085628_Trendyol.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\Migrations\\20240302085628_Trendyol.cs",
+              "RelativeToolTip": "Migrations\\20240302085628_Trendyol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:56:29.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DeleteAdminPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\DeleteAdminPageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\DeleteAdminPageViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\DeleteAdminPageViewModel.cs",
+              "RelativeToolTip": "ViewModel\\DeleteAdminPageViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:37:33.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SuperAdminViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\SuperAdminViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\SuperAdminViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\SuperAdminViewModel.cs",
+              "RelativeToolTip": "ViewModel\\SuperAdminViewModel.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAswCsAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:39:55.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DeleteAdminPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\DeleteAdminPage.xaml",
+              "RelativeDocumentMoniker": "View\\DeleteAdminPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\DeleteAdminPage.xaml",
+              "RelativeToolTip": "View\\DeleteAdminPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-02T08:43:36.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\RegistrationPage.xaml",
+              "RelativeDocumentMoniker": "View\\RegistrationPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\RegistrationPage.xaml",
+              "RelativeToolTip": "View\\RegistrationPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-01T17:07:54.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "View\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\LoginPage.xaml",
+              "RelativeToolTip": "View\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-01T17:08:50.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PreviewPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\PreviewPage.xaml",
+              "RelativeDocumentMoniker": "View\\PreviewPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\PreviewPage.xaml",
+              "RelativeToolTip": "View\\PreviewPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-01T17:07:44.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\LoginPage.xaml.cs",
+              "RelativeToolTip": "View\\LoginPage.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAswB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T09:57:16.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PreviewPageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\PreviewPageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\PreviewPageViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\ViewModel\\PreviewPageViewModel.cs",
+              "RelativeToolTip": "ViewModel\\PreviewPageViewModel.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAgwA0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:39:02.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-02T09:28:08.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-02T08:44:55.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\Services\\Classes\\NavigationService.cs",
+              "RelativeDocumentMoniker": "Services\\Classes\\NavigationService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\Services\\Classes\\NavigationService.cs",
+              "RelativeToolTip": "Services\\Classes\\NavigationService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T17:07:33.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "INavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\Services\\Interfaces\\INavigationService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\INavigationService.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\Services\\Interfaces\\INavigationService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\INavigationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T09:24:44.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Project",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\Project.csproj",
+              "RelativeDocumentMoniker": "Project.csproj",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\Project.csproj",
+              "RelativeToolTip": "Project.csproj",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-02T08:50:43.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DeleteAdminPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\DeleteAdminPage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\DeleteAdminPage.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\DeleteAdminPage.xaml.cs",
+              "RelativeToolTip": "View\\DeleteAdminPage.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:51:19.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AddAdminPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Project-main\\View\\AddAdminPage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AddAdminPage.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Project-main\\View\\AddAdminPage.xaml.cs",
+              "RelativeToolTip": "View\\AddAdminPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T08:43:59.526Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

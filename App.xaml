@@ -1,0 +1,78 @@
+﻿<Application x:Class="Project.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:viewModel="clr-namespace:Project.ViewModel"
+             xmlns:view="clr-namespace:Project.View"
+             xmlns:local="clr-namespace:Project">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:AccountInfoPageViewModel}">
+                <view:AccountInfoPage/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:AddAdminPageViewModel}">
+                <view:AddAdminPage/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:AddOrderPageViewModel}">
+                <view:AddOrderPage/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:AddOrderUserPageViewModel}">
+                <view:AddOrderUserPage/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:AdminPageViewModel}">
+                <view:AdminPage/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:GancelOrderPageViewModel}">
+                <view:CancelOrderPage/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:DeleteAdminPageViewModel}">
+                <view:DeleteAdminPage/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:HomePageViewModel}">
+                <view:HomePage/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:LoginPageViewModel}">
+                <view:LoginPage/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:MainViewModel}">
+                <view:MainView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:MyOrdersViewModel}">
+                <view:MyOrdersPage/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:PreviewPageViewModel}">
+                <view:PreviewPage/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:ProductCountPageViewModel}">
+                <view:ProductCountPage/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:RegistrationPageViewModel}">
+                <view:RegistrationPage/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type TypeName=viewModel:SuperAdminViewModel}">
+                <view:SuperAdminPage/>
+            </DataTemplate>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

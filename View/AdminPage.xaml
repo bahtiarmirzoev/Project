@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="Project.View.AdminPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Project.View"
+             xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:viewmodel="clr-namespace:Project.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:AdminPageViewModel}"
+             mc:Ignorable="d"
+             d:DesignHeight="768" d:DesignWidth="1366"  >
+
+    <Grid>
+        <Image Source="https://cdn.bolgegundem.com/d/other/2022/06/01/5.jpg" Margin="-62,-50,-192,-52">
+            <Image.Effect>
+                <BlurEffect Radius="10"/>
+            </Image.Effect>
+        </Image>
+
+        <ListBox
+             ItemsSource="{Binding Order, UpdateSourceTrigger=PropertyChanged}"
+             SelectedItem="{Binding SelectedOrder, UpdateSourceTrigger=PropertyChanged}"
+             SelectionMode="Single"
+             FontSize="17"
+             FontWeight="Bold" Margin="40,78,717,113">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <DockPanel>
+                        <StackPanel 
+                        Grid.Row="1">
+                            <Label Content="Name: "/>
+                            <Label Content="Surname: "/>
+                            <Label Content="E-mail: "/>
+                            <Label Content="Product Id: "/>
+                            <Label Content="Product name: "/>
+                            <Label Content="Order date: "/>
+                            <Label Content="Status: "/>
+                        </StackPanel>
+                        <StackPanel
+                        Grid.Row="1">
+                            <Label Content="{Binding Users.Name}"/>
+                            <Label Content="{Binding Users.Surname}"/>
+                            <Label Content="{Binding Users.Email}"/>
+                            <Label Content="{Binding Id}"/>
+                            <Label Content="{Binding Product}"/>
+                            <Label Content="{Binding Created}"/>
+                            <Label Content="{Binding Status, UpdateSourceTrigger=PropertyChanged}"/>
+
+                        </StackPanel>
+                    </DockPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <TextBlock Text="Orders:" Margin="0,0,0,20" FontSize="32" FontWeight="Bold"/>
+        <StackPanel
+            HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,660,500,0" Width="800">
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Order State:" Margin="0,0,20,0" VerticalAlignment="Center" Height="17" />
+                <RadioButton Content="Order Made" x:Name="OrderMadeRadioButton" Style="{StaticResource MaterialDesignFlatAccentBgButton}" Background="Orange" Margin="0,0,10,0"/>
+                <RadioButton Content="Delivered to Warehouse" x:Name="DeliveredToWarehouseRadioButton" Style="{StaticResource MaterialDesignFlatAccentBgButton}" Background="Orange" Margin="0,0,10,0"/>
+                <RadioButton Content="Sent" x:Name="SentButton" Style="{StaticResource MaterialDesignFlatAccentBgButton}" Background="Orange" Margin="0,0,10,0"/>
+                <RadioButton Content="Customs Check" x:Name="CustomsCheckRadioButton" Style="{StaticResource MaterialDesignFlatAccentBgButton}" Background="Orange" Margin="0,0,10,0"/>
+                <RadioButton Content="Ready for Pickup" x:Name="ReadyForPickupRadioButton" Style="{StaticResource MaterialDesignFlatAccentBgButton}" Background="Orange" Margin="0,0,10,0"/>
+            </StackPanel>
+        </StackPanel>
+        <Button
+            Command="{Binding Add}"
+            Content="Add product in warehouse" Margin="0,0,132,650" Background="DarkGreen" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="204" Height="40"/>
+        <Button
+            FontSize="18"
+            Command="{Binding Exit}"
+            Content="Exit" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,650" Width="100" Height="40" Background="red" BorderThickness="2" BorderBrush="Red" Foreground="White" RenderTransformOrigin="0.495,-0.45"/>
+    </Grid>
+</UserControl>

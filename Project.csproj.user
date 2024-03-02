@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="View\AccountInfoPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AddAdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AddOrderPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AddOrderUserPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CancelOrderPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\DeleteAdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\HomePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\LoginPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\MainView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\MyOrdersPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\PreviewPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ProductCountPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\RegistrationPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\SuperAdminPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="View\AccountInfoPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddAdminPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddOrderPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddOrderUserPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AdminPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CancelOrderPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\DeleteAdminPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\HomePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\LoginPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\MainView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\MyOrdersPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\PreviewPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ProductCountPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\RegistrationPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SuperAdminPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

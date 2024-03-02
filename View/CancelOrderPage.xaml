@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="Project.View.CancelOrderPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:viewModel="clr-namespace:Project.ViewModel"
+             xmlns:local="clr-namespace:Project.View" xmlns:viewmodel="clr-namespace:Project.ViewModel" d:DataContext="{d:DesignInstance Type=viewModel:GancelOrderPageViewModel}"
+             mc:Ignorable="d" 
+             d:DesignHeight="768" d:DesignWidth="1366">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="34*"/>
+        </Grid.RowDefinitions>
+        <Image Source="/image/registrationpagetrendyol.jpg" Grid.RowSpan="2">
+            <Image.Effect>
+                <BlurEffect Radius="10"/>
+            </Image.Effect>
+        </Image>
+        <TextBlock Text="Cancel Order" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,20,0,182" Width="162" Foreground="Black"/>
+
+        <StackPanel Margin="30,64,20,20" Grid.RowSpan="2"/>
+        <ListBox
+    ItemsSource="{Binding Order}"
+    SelectedItem="{Binding SelectedOrder}"
+    SelectionMode="Single"
+    FontSize="17"
+    FontWeight="Bold"
+                  Margin="10,53,10,57" Grid.RowSpan="2">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <DockPanel>
+                        <StackPanel 
+          Grid.Row="1">
+                            <Label Content="Order Id: "/>
+                            <Label Content="TrackingID: "/>
+                            <Label Content="Count: "/>
+                            <Label Content="Product name: "/>
+                            <Label Content="Order date: "/>
+                            <Label Content="Order status: "/>
+                        </StackPanel>
+                        <StackPanel
+    Grid.Row="1">
+                            <Label Content="{Binding Id}"/>
+                            <Label Content="{Binding TrackingId}"/>
+                            <Label Content="{Binding ProductsCount}"/>
+                            <Label Content="{Binding Product}"/>
+                            <Label Content="{Binding Created}"/>
+                            <Label Content="{Binding Status}"/>
+                        </StackPanel>
+                    </DockPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button
+            Command="{Binding Back}"
+            Content="Go Back" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,57" Width="100" Height="40" Background="red" BorderThickness="2" BorderBrush="Red" Foreground="White" Grid.Row="1"/>
+        <Button
+            Command="{Binding Gancel}"
+            Content="Delete Order" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,133,57" Width="118" Height="40" Background="red" BorderThickness="2" BorderBrush="Red" Foreground="White" Grid.Row="1"/>
+    </Grid>
+</UserControl>

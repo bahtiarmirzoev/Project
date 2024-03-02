@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="Project.View.ProductCountPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Project.View" xmlns:viewmodel="clr-namespace:Project.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:ProductCountPageViewModel}"
+             mc:Ignorable="d" d:DesignWidth="1366" Height="778">
+    <Grid>
+        <Image Source="/image/registrationpagetrendyol.jpg" Margin="0,0,0,-19">
+            <Image.Effect>
+                <BlurEffect Radius="10"/>
+            </Image.Effect>
+        </Image>
+
+        <TextBlock
+            FontSize="30"
+            Foreground="Black"
+    TextAlignment="Center"
+    FontWeight="Bold"
+            Text="Count product:"
+            Margin="544,316,574,236"/>
+
+        <TextBox
+            FontSize="20"
+        Text="{Binding Count}"
+        Margin="561,373,595,358" x:Name="txtCost_Copy" Background="White" />
+        <Button
+            Command="{Binding Back}"
+            Content="Go Back" Margin="593,450,623,286" Width="150" Background="Red" BorderBrush="Red" BorderThickness="2"/>
+        <Button
+            Command="{Binding AddOrder}"
+            Margin="593,418,623,318" Content="Buy product" Background="DarkGreen" />
+    </Grid>
+</UserControl>
