@@ -4,8 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Project.View"
-        xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes"
-        mc:Ignorable="d" Height="450" Width="800">
+        xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:viewmodel="clr-namespace:Project.ViewModel" d:DataContext="{d:DesignInstance Type=viewmodel:DeleteAdminPageViewModel}"
+             mc:Ignorable="d" Height="450" Width="800">
 
     <Grid>
         <Image Source="/image/registrationpagetrendyol.jpg">
@@ -14,7 +14,36 @@
             </Image.Effect>
 
         </Image>
-        <Button Content="Delete Admin" Width="150" Height="40" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,325,0,0" Background="Orange" Foreground="White" BorderBrush="Orange"/>
+
+        <ListBox
+ItemsSource="{Binding Admin}"
+SelectedItem="{Binding SelectedAdmin}"
+SelectionMode="Single"
+FontSize="17"
+FontWeight="Bold"
+              Margin="10,53,10,57" Grid.RowSpan="2">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <DockPanel>
+                        <StackPanel 
+      Grid.Row="1">
+                            <Label Content="ID Админа: "/>
+                            <Label Content="Логин: "/>
+
+                        </StackPanel>
+                        <StackPanel
+Grid.Row="1">
+                            <Label Content="{Binding AdminId}"/>
+                            <Label Content="{Binding Name}"/>
+
+                        </StackPanel>
+                    </DockPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Button
+            Command="{Binding Delete}"
+            Content="Delete Admin" Width="150" Height="40" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,325,0,0" Background="Orange" Foreground="White" BorderBrush="Orange"/>
         <Button
             Command="{Binding Back}"
             Content="Go Back" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,5" Width="100" Height="40" Background="red" BorderThickness="2" BorderBrush="Red" Foreground="White"/>
